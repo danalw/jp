@@ -1,0 +1,503 @@
+Francouzská	francouzský	AAFS1----1A----	1	Francouzská	francouzský	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	2	amod	_	_	1
+filosofie	filozofie	NNFS1-----A----	2	filosofie	filozofie	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	3	nsubj	_	_	1
+má	mít	VB-S---3P-AA---	3	má	mít	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	1
+především	především-1	Db-------------	4	především	především	ADV	Db-------------	_	3	advmod	_	_	1
+výhodu	výhoda	NNFS4-----A----	5	výhodu	výhoda	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	3	obj	_	_	1
+školského	školský	AAIS2----1A----	6	školského	školský	ADJ	AAIS2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	7	amod	_	_	1
+drillu	drill_;G	NNIS2-----A----	7	drillu	drill	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	5	nmod	_	SpaceAfter=No	1
+,	,	Z:-------------	8	,	,	PUNCT	Z:-------------	_	12	punct	_	_	1
+který	který	P4YS1----------	9	který	který	DET	P4YS1----------	Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	12	nsubj	_	_	1
+je	být	VB-S---3P-AA---	10	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	12	cop	_	_	1
+vskutku	vskutku	Db-------------	11	vskutku	vskutku	ADV	Db-------------	_	12	advmod	_	_	1
+znamenitý	znamenitý	AAIS1----1A----	12	znamenitý	znamenitý	ADJ	AAIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	7	acl	_	SpaceAfter=No	1
+.	.	Z:-------------	13	.	.	PUNCT	Z:-------------	_	3	punct	_	_	1
+	
+Vědecký	vědecký	AAMS1----1A----	1	Vědecký	vědecký	ADJ	AAMS1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	2	amod	_	_	1
+duch	duch	NNMS1-----A----	2	duch	duch	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	0	root	_	_	1
+dýše	dýchat	VB-S---3P-AA--2	3	dýše	dýš	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	2	nmod	_	_	1
+z	z-1	RR--2----------	4	z	z	ADP	RR--2----------	AdpType=Prep|Case=Gen	6	case	_	_	1
+každého	každý	AANS2----1A----	5	každého	každý	ADJ	AANS2----1A----	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	6	amod	_	_	1
+slova	slovo	NNNS2-----A----	6	slova	slovo	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos	2	nmod	_	SpaceAfter=No	1
+,	,	Z:-------------	7	,	,	PUNCT	Z:-------------	_	10	punct	_	_	1
+jež	jenž_^(který_[ve_vedl.větě])	PJNS1----------	8	jež	jenž	PRON	PJNS1----------	Case=Nom|Gender=Neut|Number=Sing|PrepCase=Npr|PronType=Rel	10	nsubj	_	_	1
+se	se_^(zvr._zájmeno/částice)	P7-X4----------	9	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	10	expl:pv	_	_	1
+vysloví	vyslovit_:W	VB-S---3P-AA---	10	vysloví	vyslovit	VERB	VB-S---3P-AA---	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl	_	_	1
+ve	v-1	RV--6----------	11	ve	v	ADP	RV--6----------	AdpType=Voc|Case=Loc	12	case	_	_	1
+zdech	zeď	NNFP6-----A----	12	zdech	zeď	NOUN	NNFP6-----A----	Case=Loc|Gender=Fem|Number=Plur|Polarity=Pos	10	obl	_	_	1
+Sorbony	Sorbon_;S	NNMP4-----A----	13	Sorbony	Sorbony	PROPN	NNFS2-----A----	Case=Gen|Gender=Fem|NameType=Geo|Number=Sing|Polarity=Pos	12	nmod	_	SpaceAfter=No	1
+.	.	Z:-------------	14	.	.	PUNCT	Z:-------------	_	2	punct	_	_	1
+	
+K	k-1	RR--3----------	1	K	k	ADP	RR--3----------	AdpType=Prep|Case=Dat	2	case	_	_	1
+tomu	ten	PDZS3----------	2	tomu	ten	DET	PDZS3----------	Case=Dat|Gender=Masc,Neut|Number=Sing|PronType=Dem	9	obl	_	_	1
+vychválená	vychválený_^(*3it)	AAFS1----1A----	3	vychválená	vychválený	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	4	amod	_	_	1
+jasnost	jasnost-2_^(světelná,_př._hvězdy)	NNFS1-----A----	4	jasnost	jasnost	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	9	nsubj	_	_	1
+francouzského	francouzský	AAMS2----1A----	5	francouzského	francouzský	ADJ	AAMS2----1A----	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	6	amod	_	_	1
+ducha	duch	NNMS2-----A----	6	ducha	duch	NOUN	NNMS2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	4	nmod	_	_	1
+-	-	Z:-------------	7	-	-	PUNCT	Z:-------------	_	8	punct	_	_	1
+mnozí	mnohý	AAMP1----1A----	8	mnozí	mnohý	ADJ	AAMP1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	9	nsubj	_	_	1
+říkají	říkat_:T	VB-P---3P-AA---	9	říkají	říkat	VERB	VB-P---3P-AA---	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No	1
+,	,	Z:-------------	10	,	,	PUNCT	Z:-------------	_	17	punct	_	_	1
+že	že-1	J,-------------	11	že	že	SCONJ	J,-------------	_	17	mark	_	_	1
+i	i-1	J^-------------	12	i	i	CCONJ	J^-------------	_	14	advmod:emph	_	_	1
+francouzské	francouzský	AANS1----1A----	13	francouzské	francouzský	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	14	amod	_	_	1
+slovo	slovo	NNNS1-----A----	14	slovo	slovo	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos	17	nsubj	_	_	1
+samo	sám_^(samotný)	PLNS1----------	15	samo	sám	DET	PLNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Emp	14	xcomp	_	_	1
+je	být	VB-S---3P-AA---	16	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	17	cop	_	_	1
+proniknuto	proniknout_:W	VsNS---XX-AP---	17	proniknuto	proniknutý	ADJ	VsNS---XX-AP---	Gender=Neut|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	9	ccomp	_	_	1
+touto	tento	PDFS7----------	18	touto	tento	DET	PDFS7----------	Case=Ins|Gender=Fem|Number=Sing|PronType=Dem	19	det	_	_	1
+kvalitou	kvalita	NNFS7-----A----	19	kvalitou	kvalita	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing|Polarity=Pos	17	obj	_	_	1
+-	-	Z:-------------	20	-	-	PUNCT	Z:-------------	_	24	punct	_	_	1
+je	být	VB-S---3P-AA---	21	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	24	cop	_	_	1
+kvalita	kvalita	NNFS1-----A----	22	kvalita	kvalita	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	24	nsubj	_	_	1
+vysloveně	vysloveně_^(*1ý)	Dg-------1A----	23	vysloveně	vysloveně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	24	advmod	_	_	1
+pedagogická	pedagogický	AAFS1----1A----	24	pedagogická	pedagogický	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	9	conj	_	SpaceAfter=No	1
+.	.	Z:-------------	25	.	.	PUNCT	Z:-------------	_	9	punct	_	_	1
+	
+Jasnost	Jasnost_^(Jeho_Jasnost)	NNFS1-----A----	1	Jasnost	Jasnost	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	3	nsubj	_	_	1
+je	být	VB-S---3P-AA---	2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_	1
+kvalita	kvalita	NNFS1-----A----	3	kvalita	kvalita	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	19	nsubj	_	_	1
+plánu	plán	NNIS2-----A----	4	plánu	plán	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	3	nmod	_	SpaceAfter=No	1
+;	;	Z:-------------	5	;	;	PUNCT	Z:-------------	_	11	punct	_	_	1
+skutečně	skutečně_^(*1ý)	Dg-------1A----	6	skutečně	skutečně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	11	advmod	_	SpaceAfter=No	1
+,	,	Z:-------------	7	,	,	PUNCT	Z:-------------	_	6	punct	_	_	1
+zdejší	zdejší	AAMS1----1A----	8	zdejší	zdejší	ADJ	AAMS1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	9	amod	_	_	1
+profesor	profesor	NNMS1-----A----	9	profesor	profesor	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	11	nsubj	_	_	1
+nikdy	nikdy	Db-------------	10	nikdy	nikdy	ADV	Db-------------	PronType=Neg	11	advmod	_	_	1
+nepřekročí	překročit_:W	VB-S---3P-NA---	11	nepřekročí	překročit	VERB	VB-P---3P-NA---	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	_	_	1
+mez	mez	NNFS4-----A----	12	mez	mez	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	11	obj	_	SpaceAfter=No	1
+,	,	Z:-------------	13	,	,	PUNCT	Z:-------------	_	16	punct	_	_	1
+již	jenž_^(kterou_[ve_vedl.větě])	PJFS4----------	14	již	jenž	PRON	PJFS4----------	Case=Acc|Gender=Fem|Number=Sing|PrepCase=Npr|PronType=Rel	16	obj	_	_	1
+si	se_^(zvr._zájmeno/částice)	P7-X3----------	15	si	se	PRON	P7-X3----------	Case=Dat|PronType=Prs|Reflex=Yes|Variant=Short	16	obl	_	_	1
+určil	určit_:T_:W	VpYS---XR-AA---	16	určil	určit	VERB	VpYS---XR-AA---	Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	11	conj	_	SpaceAfter=No	1
+,	,	Z:-------------	17	,	,	PUNCT	Z:-------------	_	11	punct	_	_	1
+nikdy	nikdy	Db-------------	18	nikdy	nikdy	ADV	Db-------------	PronType=Neg	19	advmod	_	_	1
+neřekne	říci	VB-S---3P-NA---	19	neřekne	říci	VERB	VB-S---3P-NA---	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	1
+více	hodně-2	Dg-------2A----	20	více	hodně	ADV	Dg-------2A----	Degree=Cmp|Polarity=Pos	19	obj	_	SpaceAfter=No	1
+,	,	Z:-------------	21	,	,	PUNCT	Z:-------------	_	23	punct	_	_	1
+než	než-2	J,-------------	22	než	než	SCONJ	J,-------------	_	23	mark	_	_	1
+chce	chtít	VB-S---3P-AA---	23	chce	chtít	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	20	advcl	_	_	1
+říci	říci	Vf--------A---1	24	říci	říci	VERB	Vf--------A---1	Aspect=Perf|Polarity=Pos|VerbForm=Inf	23	xcomp	_	SpaceAfter=No	1
+.	.	Z:-------------	25	.	.	PUNCT	Z:-------------	_	19	punct	_	_	1
+	
+Je	být	VB-S---3P-AA---	1	Je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_	1
+tedy	tedy-2	J^-------------	2	tedy	tedy	ADV	Db-------------	_	3	advmod	_	_	1
+jasnost	jasnost-2_^(světelná,_př._hvězdy)	NNFS1-----A----	3	jasnost	jasnost	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	0	root	_	_	1
+totéž	tentýž	PDNS4----------	4	totéž	tentýž	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	SpaceAfter=No	1
+,	,	Z:-------------	5	,	,	PUNCT	Z:-------------	_	6	punct	_	_	1
+co	co-1	PQ--1----------	6	co	co	PRON	PQ--1----------	Animacy=Inan|Case=Nom|PronType=Int,Rel	4	conj	_	_	1
+zkázněnost	zkázněnost_^(*3ý)	NNFS1-----A----	7	zkázněnost	zkázněnost	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	6	orphan	_	SpaceAfter=No	1
+,	,	Z:-------------	8	,	,	PUNCT	Z:-------------	_	6	punct	_	_	1
+je	být	VB-S---3P-AA---	9	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_	1
+to	ten	PDNS1----------	10	to	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	6	nsubj	_	_	1
+vlastnost	vlastnost	NNFS1-----A----	11	vlastnost	vlastnost	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	6	orphan	_	_	1
+vůle	vůle	NNFS2-----A----	12	vůle	vůle	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	11	nmod	_	SpaceAfter=No	1
+.	.	Z:-------------	13	.	.	PUNCT	Z:-------------	_	3	punct	_	_	1
+	
+Francouzská	francouzský	AAFS1----1A----	1	Francouzská	francouzský	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	2	amod	_	_	1
+filozofie	filozofie	NNFS1-----A----	2	filozofie	filozofie	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	4	nsubj	_	_	1
+je	být	VB-S---3P-AA---	3	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_	1
+tím	ten	PDZS7----------	4	tím	ten	DET	PDZS7----------	Case=Ins|Gender=Masc,Neut|Number=Sing|PronType=Dem	0	root	_	SpaceAfter=No	1
+,	,	Z:-------------	5	,	,	PUNCT	Z:-------------	_	7	punct	_	_	1
+čím	co-1	PQ--7----------	6	čím	co	PRON	PQ--7----------	Animacy=Inan|Case=Ins|PronType=Int,Rel	8	obl	_	_	1
+chce	chtít	VB-S---3P-AA---	7	chce	chtít	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl	_	_	1
+býti	být	Vf--------A---2	8	býti	být	AUX	Vf--------A---2	Polarity=Pos|Style=Arch|VerbForm=Inf	7	aux	_	SpaceAfter=No	1
+.	.	Z:-------------	9	.	.	PUNCT	Z:-------------	_	4	punct	_	_	1
+	
+Ale	ale	J^-------------	1	Ale	ale	CCONJ	J^-------------	_	5	cc	_	_	1
+to	ten	PDNS1----------	2	to	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	_	1
+právě	právě-1	Db-------------	3	právě	právě	ADV	Db-------------	_	5	advmod	_	_	1
+je	být	VB-S---3P-AA---	4	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_	1
+důvodem	důvod	NNIS7-----A----	5	důvodem	důvod	NOUN	NNIS7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing|Polarity=Pos	0	root	_	_	1
+zmatku	zmatek	NNIS2-----A----	6	zmatku	zmatek	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	5	nmod	_	_	1
+ve	v-1	RV--6----------	7	ve	v	ADP	RV--6----------	AdpType=Voc|Case=Loc	8	case	_	_	1
+velkém	velký	AANS6----1A----	8	velkém	velký	ADJ	AANS6----1A----	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	6	amod	_	SpaceAfter=No	1
+.	.	Z:-------------	9	.	.	PUNCT	Z:-------------	_	5	punct	_	_	1
+	
+Ve	v-1	RV--6----------	1	Ve	v	ADP	RV--6----------	AdpType=Voc|Case=Loc	2	case	_	_	1
+Francii	Francie_;G	NNFS6-----A----	2	Francii	Francie	PROPN	NNFS6-----A----	Case=Loc|Gender=Fem|NameType=Geo|Number=Sing|Polarity=Pos	5	obl	_	_	1
+je	být	VB-S---3P-AA---	3	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_	1
+vše	všechen	PLNS1---------1	4	vše	všechen	DET	PLNS1---------1	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	5	nsubj	_	_	1
+jasné	jasný	AANS1----1A----	5	jasné	jasný	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	0	root	_	SpaceAfter=No	1
+,	,	Z:-------------	6	,	,	PUNCT	Z:-------------	_	7	punct	_	_	1
+zřetelné	zřetelný	AANS1----1A----	7	zřetelné	zřetelný	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	5	conj	_	SpaceAfter=No	1
+,	,	Z:-------------	8	,	,	PUNCT	Z:-------------	_	11	punct	_	_	1
+když	když	J,-------------	9	když	když	SCONJ	J,-------------	_	11	mark	_	_	1
+se	se_^(zvr._zájmeno/částice)	P7-X4----------	10	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	11	expl:pv	_	_	1
+díváme	dívat_:T	VB-P---1P-AA---	11	díváme	dívat	VERB	VB-P---1P-AA---	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	advcl	_	_	1
+na	na-1	RR--4----------	12	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	16	case	_	_	1
+jednající	jednající_^(*4t)	AGFS4-----A----	13	jednající	jednající	ADJ	AGFS4-----A----	Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	16	amod	_	_	1
+a	a-1	J^-------------	14	a	a	CCONJ	J^-------------	_	15	cc	_	_	1
+myslící	myslící_^(*3et)	AGFS4-----A----	15	myslící	myslící	ADJ	AGMP4-----A----	Animacy=Anim|Aspect=Imp|Case=Acc|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	13	conj	_	_	1
+individua	individuum	NNNP4-----A----	16	individua	individuum	NOUN	NNNP4-----A----	Case=Acc|Gender=Neut|Number=Plur|Polarity=Pos	11	obj	_	SpaceAfter=No	1
+;	;	Z:-------------	17	;	;	PUNCT	Z:-------------	_	18	punct	_	_	1
+nejasné	jasný	AANS1----1N----	18	nejasné	nejasný	ADJ	AANS1----1N----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Neg	16	amod	_	SpaceAfter=No	1
+,	,	Z:-------------	19	,	,	PUNCT	Z:-------------	_	21	punct	_	_	1
+když	když	J,-------------	20	když	když	SCONJ	J,-------------	_	21	mark	_	_	1
+jde	jít	VB-S---3P-AA---	21	jde	jít	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	18	advcl	_	_	1
+o	o-1	RR--4----------	22	o	o	ADP	RR--4----------	AdpType=Prep|Case=Acc	24	case	_	_	1
+všeobecné	všeobecný	AAFP4----1A----	23	všeobecné	všeobecný	ADJ	AAFP4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	24	amod	_	_	1
+tendence	tendence	NNFP4-----A----	24	tendence	tendence	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Number=Plur|Polarity=Pos	21	obj	_	SpaceAfter=No	1
+.	.	Z:-------------	25	.	.	PUNCT	Z:-------------	_	5	punct	_	_	1
+	
+Je	být	VB-S---3P-AA---	1	Je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	_	1
+jich	on-1	PPXP2--3-------	2	jich	on	PRON	PPXP2--3-------	Case=Gen|Number=Plur|Person=3|PronType=Prs	0	root	_	_	1
+velmi	velmi	Db-------------	3	velmi	velmi	ADV	Db-------------	_	4	advmod	_	_	1
+mnoho	mnoho-1	Ca--1----------	4	mnoho	mnoho	DET	Ca--4----------	Case=Acc|NumType=Card|PronType=Ind	2	det:numgov	_	_	1
+a	a-1	J^-------------	5	a	a	CCONJ	J^-------------	_	17	cc	_	_	1
+sám	sám_^(samotný)	PLYS1----------	6	sám	sám	DET	PLYS1----------	Case=Nom|Gender=Masc|Number=Sing|PronType=Emp	7	xcomp	_	_	1
+Parodi	Parodi_;S	NNMS1-----A----	7	Parodi	Parodi	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	17	nsubj	_	_	1
+na	na-1	RR--6----------	8	na	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	9	case	_	_	1
+počátku	počátek	NNIS6-----A----	9	počátku	počátek	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Polarity=Pos	17	obl	_	_	1
+své	svůj-1_^(přivlast.)	P8FS2---------1	10	své	svůj	DET	P8FS2---------1	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	11	det	_	_	1
+knihy	kniha	NNFS2-----A----	11	knihy	kniha	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	9	nmod	_	_	1
+o	o-1	RR--6----------	12	o	o	ADP	RR--6----------	AdpType=Prep|Case=Loc	14	case	_	_	1
+nové	nový	AAFS6----1A----	13	nové	nový	ADJ	AAFS6----1A----	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	14	amod	_	_	1
+filozofii	filozofie	NNFS6-----A----	14	filozofii	filozofie	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing|Polarity=Pos	9	nmod	_	_	1
+ve	v-1	RV--6----------	15	ve	v	ADP	RV--6----------	AdpType=Voc|Case=Loc	16	case	_	_	1
+Francii	Francie_;G	NNFS6-----A----	16	Francii	Francie	PROPN	NNFS6-----A----	Case=Loc|Gender=Fem|NameType=Geo|Number=Sing|Polarity=Pos	14	nmod	_	_	1
+mluví	mluvit_:T	VB-S---3P-AA---	17	mluví	mluvit	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_	1
+o	o-1	RR--6----------	18	o	o	ADP	RR--6----------	AdpType=Prep|Case=Loc	20	case	_	_	1
+jistém	jistý	AAIS6----1A----	19	jistém	jistý	ADJ	AAIS6----1A----	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	20	amod	_	_	1
+zmatku	zmatek	NNIS6-----A----	20	zmatku	zmatek	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Polarity=Pos	17	obj	_	SpaceAfter=No	1
+,	,	Z:-------------	21	,	,	PUNCT	Z:-------------	_	23	punct	_	_	1
+který	který	P4YS1----------	22	který	který	DET	P4YS1----------	Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	23	nsubj	_	_	1
+vládne	vládnout_:T	VB-S---3P-AA---	23	vládne	vládnout	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	20	acl	_	_	1
+v	v-1	RR--6----------	24	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	27	case	_	_	1
+jejich	jeho_^(přivlast.)	PSXXXXP3-------	25	jejich	jeho	DET	PSXXXXP3-------	Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	27	det	_	_	1
+vlastní	vlastní_^(příslušný_k_něčemu)	AAFS6----1A----	26	vlastní	vlastní	ADJ	AAFS6----1A----	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	27	amod	_	_	1
+povaze	povaha	NNFS6-----A----	27	povaze	povaha	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing|Polarity=Pos	23	obl	_	_	1
+i	i-1	J^-------------	28	i	i	CCONJ	J^-------------	_	30	advmod:emph	_	_	1
+v	v-1	RR--6----------	29	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	30	case	_	_	1
+úvahách	úvaha	NNFP6-----A----	30	úvahách	úvaha	NOUN	NNFP6-----A----	Case=Loc|Gender=Fem|Number=Plur|Polarity=Pos	23	obl	_	_	1
+o	o-1	RR--6----------	31	o	o	ADP	RR--6----------	AdpType=Prep|Case=Loc	32	case	_	_	1
+nich	on-1	P5XP6--3-------	32	nich	on	PRON	P5XP6--3-------	Case=Loc|Number=Plur|Person=3|PrepCase=Pre|PronType=Prs	30	nmod	_	SpaceAfter=No	1
+.	.	Z:-------------	33	.	.	PUNCT	Z:-------------	_	2	punct	_	_	1
+	
+Co	co-1	PQ--4----------	1	Co	co	PRON	PQ--4----------	Animacy=Inan|Case=Acc|PronType=Int,Rel	7	obj	_	_	1
+to	ten	PDNS4----------	2	to	ten	DET	PDNS4----------	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	1	obj	_	_	1
+ti	ten	PDMP1----------	3	ti	ten	DET	PDMP1----------	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	5	det	_	_	1
+zdejší	zdejší	AAMP1----1A----	4	zdejší	zdejší	ADJ	AAMP1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	5	amod	_	_	1
+filozofové	filozof	NNMP1-----A----	5	filozofové	filozof	NOUN	NNMP1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos	7	nsubj	_	_	1
+vlastně	vlastně-2_^(totiž)	Db-------------	6	vlastně	vlastně	ADV	Db-------------	_	7	advmod	_	_	1
+chtějí	chtít	VB-P---3P-AA---	7	chtějí	chtít	VERB	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No	1
+?	?	Z:-------------	8	?	?	PUNCT	Z:-------------	_	7	punct	_	_	1
+	
+Proč	proč	Db-------------	1	Proč	proč	ADV	Db-------------	PronType=Int,Rel	2	advmod	_	_	1
+udržují	udržovat_:T	VB-P---3P-AA---	2	udržují	udržovat	VERB	VB-P---3P-AA---	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	1
+s	s-1	RR--7----------	3	s	s	ADP	RR--7----------	AdpType=Prep|Case=Ins	5	case	_	_	1
+takovým	takový	PDZS7----------	4	takovým	takový	DET	PDZS7----------	Case=Ins|Gender=Masc,Neut|Number=Sing|PronType=Dem	5	det	_	_	1
+úsilím	úsilí	NNNS7-----A----	5	úsilím	úsilí	NOUN	NNNS7-----A----	Case=Ins|Gender=Neut|Number=Sing|Polarity=Pos	2	obj	_	_	1
+fenomenalizm	fenomenaliz	AANS7----1A----	6	fenomenalizm	fenomenaliz	ADJ	AANS7----1A----	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	8	amod	_	SpaceAfter=No	1
+,	,	Z:-------------	7	,	,	PUNCT	Z:-------------	_	8	punct	_	_	1
+kantianství	kantianství	NNNS1-----A----	8	kantianství	kantianství	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos	2	nsubj	_	SpaceAfter=No	1
+,	,	Z:-------------	9	,	,	PUNCT	Z:-------------	_	13	punct	_	_	1
+čím	co-1	PQ--7----------	10	čím	co	PRON	PQ--7----------	Animacy=Inan|Case=Ins|PronType=Int,Rel	13	obl	_	_	1
+se	se_^(zvr._zájmeno/částice)	P7-X4----------	11	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	13	expl:pv	_	_	1
+to	ten	PDNS1----------	12	to	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	13	nsubj	_	_	1
+vemluvilo	vemluvit_:W	VpNS---XR-AA---	13	vemluvilo	vemluvit	VERB	VpNS---XR-AA---	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	2	conj	_	_	1
+do	do-1	RR--2----------	14	do	do	ADP	RR--2----------	AdpType=Prep|Case=Gen	16	case	_	_	1
+francouzské	francouzský	AAFS2----1A----	15	francouzské	francouzský	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	16	amod	_	_	1
+duše	duše	NNFS2-----A----	16	duše	duše	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	13	obl	_	SpaceAfter=No	1
+?	?	Z:-------------	17	?	?	PUNCT	Z:-------------	_	2	punct	_	_	1
+	
+Nelze	lze	VB-S---3P-NA---	1	Nelze	lze	VERB	VB-S---3P-NA---	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	1
+přec	přece-1_,a	J^------------2	2	přec	přece	ADV	Db------------2	Style=Arch	1	advmod	_	_	1
+předpokládat	předpokládat_:T	Vf--------A----	3	předpokládat	předpokládat	VERB	Vf--------A----	Aspect=Imp|Polarity=Pos|VerbForm=Inf	1	csubj	_	SpaceAfter=No	1
+,	,	Z:-------------	4	,	,	PUNCT	Z:-------------	_	9	punct	_	_	1
+že	že-1	J,-------------	5	že	že	SCONJ	J,-------------	_	9	mark	_	_	1
+by	být	Vc-------------	6	by	být	AUX	Vc-------------	Mood=Cnd|VerbForm=Fin	9	aux	_	_	1
+to	ten	PDNS1----------	7	to	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	9	nsubj	_	_	1
+byla	být	VpQW---XR-AA---	8	byla	být	AUX	VpQW---XR-AA---	Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	9	cop	_	_	1
+průzračnost	průzračnost_^(*3ý)	NNFS1-----A----	9	průzračnost	průzračnost	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	3	ccomp	_	_	1
+jeho	jeho_^(přivlast.)	PSXXXZS3-------	10	jeho	jeho	DET	PSXXXZS3-------	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	11	det	_	_	1
+systému	systém	NNIS2-----A----	11	systému	systém	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	9	nmod	_	SpaceAfter=No	1
+,	,	Z:-------------	12	,	,	PUNCT	Z:-------------	_	13	punct	_	_	1
+kvality	kvalita	NNFS2-----A----	13	kvality	kvalita	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	11	appos	_	_	1
+příbuznosti	příbuznost-2_^(podobný)_(*5ý-2)	NNFS2-----A----	14	příbuznosti	příbuznost	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	13	nmod	_	SpaceAfter=No	1
+.	.	Z:-------------	15	.	.	PUNCT	Z:-------------	_	1	punct	_	_	1
+	
+Musí	muset	VB-S---3P-AA---	1	Musí	muset	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	1
+to	ten	PDNS1----------	2	to	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	1	xcomp	_	_	1
+být	být	Vf--------A----	3	být	být	AUX	Vf--------A----	Polarity=Pos|VerbForm=Inf	2	cop	_	_	1
+možná	možná-1_^(snad)	Db-------------	4	možná	možný	ADV	Db-------------	_	1	advmod	_	_	1
+něco	něco	PZ--1----------	5	něco	něco	PRON	PZ--1----------	Case=Nom|PronType=Ind	1	nsubj	_	_	1
+jiného	jiný	AANS2----1A----	6	jiného	jiný	ADJ	AANS2----1A----	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	5	amod	_	SpaceAfter=No	1
+.	.	Z:-------------	7	.	.	PUNCT	Z:-------------	_	1	punct	_	SpacesAfter=\r	1
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+Francouzská	francouzský	AAFS1----1A----	1	Francouzská	francouzský	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	2	amod	_	_	1
+filosofie	filozofie	NNFS1-----A----	2	filosofie	filozofie	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	3	nsubj	_	_	1
+má	mít	VB-S---3P-AA---	3	má	mít	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	1
+především	především-1	Db-------------	4	především	především	ADV	Db-------------	_	3	advmod	_	_	1
+výhodu	výhoda	NNFS4-----A----	5	výhodu	výhoda	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	3	obj	_	_	1
+školského	školský	AAIS2----1A----	6	školského	školský	ADJ	AAIS2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	7	amod	_	_	1
+drillu	drill_;G	NNIS2-----A----	7	drillu	drill	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	5	nmod	_	SpaceAfter=No	1
+,	,	Z:-------------	8	,	,	PUNCT	Z:-------------	_	12	punct	_	_	1
+který	který	P4YS1----------	9	který	který	DET	P4YS1----------	Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	12	nsubj	_	_	1
+je	být	VB-S---3P-AA---	10	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	12	cop	_	_	1
+vskutku	vskutku	Db-------------	11	vskutku	vskutku	ADV	Db-------------	_	12	advmod	_	_	1
+znamenitý	znamenitý	AAIS1----1A----	12	znamenitý	znamenitý	ADJ	AAIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	7	acl	_	SpaceAfter=No	1
+.	.	Z:-------------	13	.	.	PUNCT	Z:-------------	_	3	punct	_	_	1
+	
+Vědecký	vědecký	AAMS1----1A----	1	Vědecký	vědecký	ADJ	AAMS1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	2	amod	_	_	1
+duch	duch	NNMS1-----A----	2	duch	duch	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	0	root	_	_	1
+dýše	dýchat	VB-S---3P-AA--2	3	dýše	dýš	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	2	nmod	_	_	1
+z	z-1	RR--2----------	4	z	z	ADP	RR--2----------	AdpType=Prep|Case=Gen	6	case	_	_	1
+každého	každý	AANS2----1A----	5	každého	každý	ADJ	AANS2----1A----	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	6	amod	_	_	1
+slova	slovo	NNNS2-----A----	6	slova	slovo	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos	2	nmod	_	SpaceAfter=No	1
+,	,	Z:-------------	7	,	,	PUNCT	Z:-------------	_	10	punct	_	_	1
+jež	jenž_^(který_[ve_vedl.větě])	PJNS1----------	8	jež	jenž	PRON	PJNS1----------	Case=Nom|Gender=Neut|Number=Sing|PrepCase=Npr|PronType=Rel	10	nsubj	_	_	1
+se	se_^(zvr._zájmeno/částice)	P7-X4----------	9	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	10	expl:pv	_	_	1
+vysloví	vyslovit_:W	VB-S---3P-AA---	10	vysloví	vyslovit	VERB	VB-S---3P-AA---	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl	_	_	1
+ve	v-1	RV--6----------	11	ve	v	ADP	RV--6----------	AdpType=Voc|Case=Loc	12	case	_	_	1
+zdech	zeď	NNFP6-----A----	12	zdech	zeď	NOUN	NNFP6-----A----	Case=Loc|Gender=Fem|Number=Plur|Polarity=Pos	10	obl	_	_	1
+Sorbony	Sorbon_;S	NNMP4-----A----	13	Sorbony	Sorbony	PROPN	NNFS2-----A----	Case=Gen|Gender=Fem|NameType=Geo|Number=Sing|Polarity=Pos	12	nmod	_	SpaceAfter=No	1
+.	.	Z:-------------	14	.	.	PUNCT	Z:-------------	_	2	punct	_	_	1
+	
+K	k-1	RR--3----------	1	K	k	ADP	RR--3----------	AdpType=Prep|Case=Dat	2	case	_	_	1
+tomu	ten	PDZS3----------	2	tomu	ten	DET	PDZS3----------	Case=Dat|Gender=Masc,Neut|Number=Sing|PronType=Dem	9	obl	_	_	1
+vychválená	vychválený_^(*3it)	AAFS1----1A----	3	vychválená	vychválený	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	4	amod	_	_	1
+jasnost	jasnost-2_^(světelná,_př._hvězdy)	NNFS1-----A----	4	jasnost	jasnost	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	9	nsubj	_	_	1
+francouzského	francouzský	AAMS2----1A----	5	francouzského	francouzský	ADJ	AAMS2----1A----	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	6	amod	_	_	1
+ducha	duch	NNMS2-----A----	6	ducha	duch	NOUN	NNMS2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	4	nmod	_	_	1
+-	-	Z:-------------	7	-	-	PUNCT	Z:-------------	_	8	punct	_	_	1
+mnozí	mnohý	AAMP1----1A----	8	mnozí	mnohý	ADJ	AAMP1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	9	nsubj	_	_	1
+říkají	říkat_:T	VB-P---3P-AA---	9	říkají	říkat	VERB	VB-P---3P-AA---	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No	1
+,	,	Z:-------------	10	,	,	PUNCT	Z:-------------	_	17	punct	_	_	1
+že	že-1	J,-------------	11	že	že	SCONJ	J,-------------	_	17	mark	_	_	1
+i	i-1	J^-------------	12	i	i	CCONJ	J^-------------	_	14	advmod:emph	_	_	1
+francouzské	francouzský	AANS1----1A----	13	francouzské	francouzský	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	14	amod	_	_	1
+slovo	slovo	NNNS1-----A----	14	slovo	slovo	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos	17	nsubj	_	_	1
+samo	sám_^(samotný)	PLNS1----------	15	samo	sám	DET	PLNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Emp	14	xcomp	_	_	1
+je	být	VB-S---3P-AA---	16	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	17	cop	_	_	1
+proniknuto	proniknout_:W	VsNS---XX-AP---	17	proniknuto	proniknutý	ADJ	VsNS---XX-AP---	Gender=Neut|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	9	ccomp	_	_	1
+touto	tento	PDFS7----------	18	touto	tento	DET	PDFS7----------	Case=Ins|Gender=Fem|Number=Sing|PronType=Dem	19	det	_	_	1
+kvalitou	kvalita	NNFS7-----A----	19	kvalitou	kvalita	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing|Polarity=Pos	17	obj	_	_	1
+-	-	Z:-------------	20	-	-	PUNCT	Z:-------------	_	24	punct	_	_	1
+je	být	VB-S---3P-AA---	21	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	24	cop	_	_	1
+kvalita	kvalita	NNFS1-----A----	22	kvalita	kvalita	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	24	nsubj	_	_	1
+vysloveně	vysloveně_^(*1ý)	Dg-------1A----	23	vysloveně	vysloveně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	24	advmod	_	_	1
+pedagogická	pedagogický	AAFS1----1A----	24	pedagogická	pedagogický	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	9	conj	_	SpaceAfter=No	1
+.	.	Z:-------------	25	.	.	PUNCT	Z:-------------	_	9	punct	_	_	1
+	
+Jasnost	Jasnost_^(Jeho_Jasnost)	NNFS1-----A----	1	Jasnost	Jasnost	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	3	nsubj	_	_	1
+je	být	VB-S---3P-AA---	2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_	1
+kvalita	kvalita	NNFS1-----A----	3	kvalita	kvalita	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	19	nsubj	_	_	1
+plánu	plán	NNIS2-----A----	4	plánu	plán	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	3	nmod	_	SpaceAfter=No	1
+;	;	Z:-------------	5	;	;	PUNCT	Z:-------------	_	11	punct	_	_	1
+skutečně	skutečně_^(*1ý)	Dg-------1A----	6	skutečně	skutečně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	11	advmod	_	SpaceAfter=No	1
+,	,	Z:-------------	7	,	,	PUNCT	Z:-------------	_	6	punct	_	_	1
+zdejší	zdejší	AAMS1----1A----	8	zdejší	zdejší	ADJ	AAMS1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	9	amod	_	_	1
+profesor	profesor	NNMS1-----A----	9	profesor	profesor	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	11	nsubj	_	_	1
+nikdy	nikdy	Db-------------	10	nikdy	nikdy	ADV	Db-------------	PronType=Neg	11	advmod	_	_	1
+nepřekročí	překročit_:W	VB-S---3P-NA---	11	nepřekročí	překročit	VERB	VB-P---3P-NA---	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	_	_	1
+mez	mez	NNFS4-----A----	12	mez	mez	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	11	obj	_	SpaceAfter=No	1
+,	,	Z:-------------	13	,	,	PUNCT	Z:-------------	_	16	punct	_	_	1
+již	jenž_^(kterou_[ve_vedl.větě])	PJFS4----------	14	již	jenž	PRON	PJFS4----------	Case=Acc|Gender=Fem|Number=Sing|PrepCase=Npr|PronType=Rel	16	obj	_	_	1
+si	se_^(zvr._zájmeno/částice)	P7-X3----------	15	si	se	PRON	P7-X3----------	Case=Dat|PronType=Prs|Reflex=Yes|Variant=Short	16	obl	_	_	1
+určil	určit_:T_:W	VpYS---XR-AA---	16	určil	určit	VERB	VpYS---XR-AA---	Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	11	conj	_	SpaceAfter=No	1
+,	,	Z:-------------	17	,	,	PUNCT	Z:-------------	_	11	punct	_	_	1
+nikdy	nikdy	Db-------------	18	nikdy	nikdy	ADV	Db-------------	PronType=Neg	19	advmod	_	_	1
+neřekne	říci	VB-S---3P-NA---	19	neřekne	říci	VERB	VB-S---3P-NA---	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	1
+více	hodně-2	Dg-------2A----	20	více	hodně	ADV	Dg-------2A----	Degree=Cmp|Polarity=Pos	19	obj	_	SpaceAfter=No	1
+,	,	Z:-------------	21	,	,	PUNCT	Z:-------------	_	23	punct	_	_	1
+než	než-2	J,-------------	22	než	než	SCONJ	J,-------------	_	23	mark	_	_	1
+chce	chtít	VB-S---3P-AA---	23	chce	chtít	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	20	advcl	_	_	1
+říci	říci	Vf--------A---1	24	říci	říci	VERB	Vf--------A---1	Aspect=Perf|Polarity=Pos|VerbForm=Inf	23	xcomp	_	SpaceAfter=No	1
+.	.	Z:-------------	25	.	.	PUNCT	Z:-------------	_	19	punct	_	_	1
+	
+Je	být	VB-S---3P-AA---	1	Je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_	1
+tedy	tedy-2	J^-------------	2	tedy	tedy	ADV	Db-------------	_	3	advmod	_	_	1
+jasnost	jasnost-2_^(světelná,_př._hvězdy)	NNFS1-----A----	3	jasnost	jasnost	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	0	root	_	_	1
+totéž	tentýž	PDNS4----------	4	totéž	tentýž	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	SpaceAfter=No	1
+,	,	Z:-------------	5	,	,	PUNCT	Z:-------------	_	6	punct	_	_	1
+co	co-1	PQ--1----------	6	co	co	PRON	PQ--1----------	Animacy=Inan|Case=Nom|PronType=Int,Rel	4	conj	_	_	1
+zkázněnost	zkázněnost_^(*3ý)	NNFS1-----A----	7	zkázněnost	zkázněnost	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	6	orphan	_	SpaceAfter=No	1
+,	,	Z:-------------	8	,	,	PUNCT	Z:-------------	_	6	punct	_	_	1
+je	být	VB-S---3P-AA---	9	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_	1
+to	ten	PDNS1----------	10	to	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	6	nsubj	_	_	1
+vlastnost	vlastnost	NNFS1-----A----	11	vlastnost	vlastnost	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	6	orphan	_	_	1
+vůle	vůle	NNFS2-----A----	12	vůle	vůle	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	11	nmod	_	SpaceAfter=No	1
+.	.	Z:-------------	13	.	.	PUNCT	Z:-------------	_	3	punct	_	_	1
+	
+Francouzská	francouzský	AAFS1----1A----	1	Francouzská	francouzský	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	2	amod	_	_	1
+filozofie	filozofie	NNFS1-----A----	2	filozofie	filozofie	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	4	nsubj	_	_	1
+je	být	VB-S---3P-AA---	3	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_	1
+tím	ten	PDZS7----------	4	tím	ten	DET	PDZS7----------	Case=Ins|Gender=Masc,Neut|Number=Sing|PronType=Dem	0	root	_	SpaceAfter=No	1
+,	,	Z:-------------	5	,	,	PUNCT	Z:-------------	_	7	punct	_	_	1
+čím	co-1	PQ--7----------	6	čím	co	PRON	PQ--7----------	Animacy=Inan|Case=Ins|PronType=Int,Rel	8	obl	_	_	1
+chce	chtít	VB-S---3P-AA---	7	chce	chtít	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl	_	_	1
+býti	být	Vf--------A---2	8	býti	být	AUX	Vf--------A---2	Polarity=Pos|Style=Arch|VerbForm=Inf	7	aux	_	SpaceAfter=No	1
+.	.	Z:-------------	9	.	.	PUNCT	Z:-------------	_	4	punct	_	_	1
+	
+Ale	ale	J^-------------	1	Ale	ale	CCONJ	J^-------------	_	5	cc	_	_	1
+to	ten	PDNS1----------	2	to	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	_	1
+právě	právě-1	Db-------------	3	právě	právě	ADV	Db-------------	_	5	advmod	_	_	1
+je	být	VB-S---3P-AA---	4	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_	1
+důvodem	důvod	NNIS7-----A----	5	důvodem	důvod	NOUN	NNIS7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing|Polarity=Pos	0	root	_	_	1
+zmatku	zmatek	NNIS2-----A----	6	zmatku	zmatek	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	5	nmod	_	_	1
+ve	v-1	RV--6----------	7	ve	v	ADP	RV--6----------	AdpType=Voc|Case=Loc	8	case	_	_	1
+velkém	velký	AANS6----1A----	8	velkém	velký	ADJ	AANS6----1A----	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	6	amod	_	SpaceAfter=No	1
+.	.	Z:-------------	9	.	.	PUNCT	Z:-------------	_	5	punct	_	_	1
+	
+Ve	v-1	RV--6----------	1	Ve	v	ADP	RV--6----------	AdpType=Voc|Case=Loc	2	case	_	_	1
+Francii	Francie_;G	NNFS6-----A----	2	Francii	Francie	PROPN	NNFS6-----A----	Case=Loc|Gender=Fem|NameType=Geo|Number=Sing|Polarity=Pos	5	obl	_	_	1
+je	být	VB-S---3P-AA---	3	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_	1
+vše	všechen	PLNS1---------1	4	vše	všechen	DET	PLNS1---------1	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	5	nsubj	_	_	1
+jasné	jasný	AANS1----1A----	5	jasné	jasný	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	0	root	_	SpaceAfter=No	1
+,	,	Z:-------------	6	,	,	PUNCT	Z:-------------	_	7	punct	_	_	1
+zřetelné	zřetelný	AANS1----1A----	7	zřetelné	zřetelný	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	5	conj	_	SpaceAfter=No	1
+,	,	Z:-------------	8	,	,	PUNCT	Z:-------------	_	11	punct	_	_	1
+když	když	J,-------------	9	když	když	SCONJ	J,-------------	_	11	mark	_	_	1
+se	se_^(zvr._zájmeno/částice)	P7-X4----------	10	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	11	expl:pv	_	_	1
+díváme	dívat_:T	VB-P---1P-AA---	11	díváme	dívat	VERB	VB-P---1P-AA---	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	advcl	_	_	1
+na	na-1	RR--4----------	12	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	16	case	_	_	1
+jednající	jednající_^(*4t)	AGFS4-----A----	13	jednající	jednající	ADJ	AGFS4-----A----	Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	16	amod	_	_	1
+a	a-1	J^-------------	14	a	a	CCONJ	J^-------------	_	15	cc	_	_	1
+myslící	myslící_^(*3et)	AGFS4-----A----	15	myslící	myslící	ADJ	AGMP4-----A----	Animacy=Anim|Aspect=Imp|Case=Acc|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	13	conj	_	_	1
+individua	individuum	NNNP4-----A----	16	individua	individuum	NOUN	NNNP4-----A----	Case=Acc|Gender=Neut|Number=Plur|Polarity=Pos	11	obj	_	SpaceAfter=No	1
+;	;	Z:-------------	17	;	;	PUNCT	Z:-------------	_	18	punct	_	_	1
+nejasné	jasný	AANS1----1N----	18	nejasné	nejasný	ADJ	AANS1----1N----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Neg	16	amod	_	SpaceAfter=No	1
+,	,	Z:-------------	19	,	,	PUNCT	Z:-------------	_	21	punct	_	_	1
+když	když	J,-------------	20	když	když	SCONJ	J,-------------	_	21	mark	_	_	1
+jde	jít	VB-S---3P-AA---	21	jde	jít	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	18	advcl	_	_	1
+o	o-1	RR--4----------	22	o	o	ADP	RR--4----------	AdpType=Prep|Case=Acc	24	case	_	_	1
+všeobecné	všeobecný	AAFP4----1A----	23	všeobecné	všeobecný	ADJ	AAFP4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	24	amod	_	_	1
+tendence	tendence	NNFP4-----A----	24	tendence	tendence	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Number=Plur|Polarity=Pos	21	obj	_	SpaceAfter=No	1
+.	.	Z:-------------	25	.	.	PUNCT	Z:-------------	_	5	punct	_	_	1
+	
+Je	být	VB-S---3P-AA---	1	Je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	_	1
+jich	on-1	PPXP2--3-------	2	jich	on	PRON	PPXP2--3-------	Case=Gen|Number=Plur|Person=3|PronType=Prs	0	root	_	_	1
+velmi	velmi	Db-------------	3	velmi	velmi	ADV	Db-------------	_	4	advmod	_	_	1
+mnoho	mnoho-1	Ca--1----------	4	mnoho	mnoho	DET	Ca--4----------	Case=Acc|NumType=Card|PronType=Ind	2	det:numgov	_	_	1
+a	a-1	J^-------------	5	a	a	CCONJ	J^-------------	_	17	cc	_	_	1
+sám	sám_^(samotný)	PLYS1----------	6	sám	sám	DET	PLYS1----------	Case=Nom|Gender=Masc|Number=Sing|PronType=Emp	7	xcomp	_	_	1
+Parodi	Parodi_;S	NNMS1-----A----	7	Parodi	Parodi	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	17	nsubj	_	_	1
+na	na-1	RR--6----------	8	na	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	9	case	_	_	1
+počátku	počátek	NNIS6-----A----	9	počátku	počátek	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Polarity=Pos	17	obl	_	_	1
+své	svůj-1_^(přivlast.)	P8FS2---------1	10	své	svůj	DET	P8FS2---------1	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	11	det	_	_	1
+knihy	kniha	NNFS2-----A----	11	knihy	kniha	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	9	nmod	_	_	1
+o	o-1	RR--6----------	12	o	o	ADP	RR--6----------	AdpType=Prep|Case=Loc	14	case	_	_	1
+nové	nový	AAFS6----1A----	13	nové	nový	ADJ	AAFS6----1A----	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	14	amod	_	_	1
+filozofii	filozofie	NNFS6-----A----	14	filozofii	filozofie	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing|Polarity=Pos	9	nmod	_	_	1
+ve	v-1	RV--6----------	15	ve	v	ADP	RV--6----------	AdpType=Voc|Case=Loc	16	case	_	_	1
+Francii	Francie_;G	NNFS6-----A----	16	Francii	Francie	PROPN	NNFS6-----A----	Case=Loc|Gender=Fem|NameType=Geo|Number=Sing|Polarity=Pos	14	nmod	_	_	1
+mluví	mluvit_:T	VB-S---3P-AA---	17	mluví	mluvit	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_	1
+o	o-1	RR--6----------	18	o	o	ADP	RR--6----------	AdpType=Prep|Case=Loc	20	case	_	_	1
+jistém	jistý	AAIS6----1A----	19	jistém	jistý	ADJ	AAIS6----1A----	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	20	amod	_	_	1
+zmatku	zmatek	NNIS6-----A----	20	zmatku	zmatek	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Polarity=Pos	17	obj	_	SpaceAfter=No	1
+,	,	Z:-------------	21	,	,	PUNCT	Z:-------------	_	23	punct	_	_	1
+který	který	P4YS1----------	22	který	který	DET	P4YS1----------	Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	23	nsubj	_	_	1
+vládne	vládnout_:T	VB-S---3P-AA---	23	vládne	vládnout	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	20	acl	_	_	1
+v	v-1	RR--6----------	24	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	27	case	_	_	1
+jejich	jeho_^(přivlast.)	PSXXXXP3-------	25	jejich	jeho	DET	PSXXXXP3-------	Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	27	det	_	_	1
+vlastní	vlastní_^(příslušný_k_něčemu)	AAFS6----1A----	26	vlastní	vlastní	ADJ	AAFS6----1A----	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	27	amod	_	_	1
+povaze	povaha	NNFS6-----A----	27	povaze	povaha	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing|Polarity=Pos	23	obl	_	_	1
+i	i-1	J^-------------	28	i	i	CCONJ	J^-------------	_	30	advmod:emph	_	_	1
+v	v-1	RR--6----------	29	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	30	case	_	_	1
+úvahách	úvaha	NNFP6-----A----	30	úvahách	úvaha	NOUN	NNFP6-----A----	Case=Loc|Gender=Fem|Number=Plur|Polarity=Pos	23	obl	_	_	1
+o	o-1	RR--6----------	31	o	o	ADP	RR--6----------	AdpType=Prep|Case=Loc	32	case	_	_	1
+nich	on-1	P5XP6--3-------	32	nich	on	PRON	P5XP6--3-------	Case=Loc|Number=Plur|Person=3|PrepCase=Pre|PronType=Prs	30	nmod	_	SpaceAfter=No	1
+.	.	Z:-------------	33	.	.	PUNCT	Z:-------------	_	2	punct	_	_	1
+	
+Co	co-1	PQ--4----------	1	Co	co	PRON	PQ--4----------	Animacy=Inan|Case=Acc|PronType=Int,Rel	7	obj	_	_	1
+to	ten	PDNS4----------	2	to	ten	DET	PDNS4----------	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	1	obj	_	_	1
+ti	ten	PDMP1----------	3	ti	ten	DET	PDMP1----------	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	5	det	_	_	1
+zdejší	zdejší	AAMP1----1A----	4	zdejší	zdejší	ADJ	AAMP1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	5	amod	_	_	1
+filozofové	filozof	NNMP1-----A----	5	filozofové	filozof	NOUN	NNMP1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos	7	nsubj	_	_	1
+vlastně	vlastně-2_^(totiž)	Db-------------	6	vlastně	vlastně	ADV	Db-------------	_	7	advmod	_	_	1
+chtějí	chtít	VB-P---3P-AA---	7	chtějí	chtít	VERB	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No	1
+?	?	Z:-------------	8	?	?	PUNCT	Z:-------------	_	7	punct	_	_	1
+	
+Proč	proč	Db-------------	1	Proč	proč	ADV	Db-------------	PronType=Int,Rel	2	advmod	_	_	1
+udržují	udržovat_:T	VB-P---3P-AA---	2	udržují	udržovat	VERB	VB-P---3P-AA---	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	1
+s	s-1	RR--7----------	3	s	s	ADP	RR--7----------	AdpType=Prep|Case=Ins	5	case	_	_	1
+takovým	takový	PDZS7----------	4	takovým	takový	DET	PDZS7----------	Case=Ins|Gender=Masc,Neut|Number=Sing|PronType=Dem	5	det	_	_	1
+úsilím	úsilí	NNNS7-----A----	5	úsilím	úsilí	NOUN	NNNS7-----A----	Case=Ins|Gender=Neut|Number=Sing|Polarity=Pos	2	obj	_	_	1
+fenomenalizm	fenomenaliz	AANS7----1A----	6	fenomenalizm	fenomenaliz	ADJ	AANS7----1A----	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	8	amod	_	SpaceAfter=No	1
+,	,	Z:-------------	7	,	,	PUNCT	Z:-------------	_	8	punct	_	_	1
+kantianství	kantianství	NNNS1-----A----	8	kantianství	kantianství	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos	2	nsubj	_	SpaceAfter=No	1
+,	,	Z:-------------	9	,	,	PUNCT	Z:-------------	_	13	punct	_	_	1
+čím	co-1	PQ--7----------	10	čím	co	PRON	PQ--7----------	Animacy=Inan|Case=Ins|PronType=Int,Rel	13	obl	_	_	1
+se	se_^(zvr._zájmeno/částice)	P7-X4----------	11	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	13	expl:pv	_	_	1
+to	ten	PDNS1----------	12	to	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	13	nsubj	_	_	1
+vemluvilo	vemluvit_:W	VpNS---XR-AA---	13	vemluvilo	vemluvit	VERB	VpNS---XR-AA---	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	2	conj	_	_	1
+do	do-1	RR--2----------	14	do	do	ADP	RR--2----------	AdpType=Prep|Case=Gen	16	case	_	_	1
+francouzské	francouzský	AAFS2----1A----	15	francouzské	francouzský	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	16	amod	_	_	1
+duše	duše	NNFS2-----A----	16	duše	duše	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	13	obl	_	SpaceAfter=No	1
+?	?	Z:-------------	17	?	?	PUNCT	Z:-------------	_	2	punct	_	_	1
+	
+Nelze	lze	VB-S---3P-NA---	1	Nelze	lze	VERB	VB-S---3P-NA---	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	1
+přec	přece-1_,a	J^------------2	2	přec	přece	ADV	Db------------2	Style=Arch	1	advmod	_	_	1
+předpokládat	předpokládat_:T	Vf--------A----	3	předpokládat	předpokládat	VERB	Vf--------A----	Aspect=Imp|Polarity=Pos|VerbForm=Inf	1	csubj	_	SpaceAfter=No	1
+,	,	Z:-------------	4	,	,	PUNCT	Z:-------------	_	9	punct	_	_	1
+že	že-1	J,-------------	5	že	že	SCONJ	J,-------------	_	9	mark	_	_	1
+by	být	Vc-------------	6	by	být	AUX	Vc-------------	Mood=Cnd|VerbForm=Fin	9	aux	_	_	1
+to	ten	PDNS1----------	7	to	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	9	nsubj	_	_	1
+byla	být	VpQW---XR-AA---	8	byla	být	AUX	VpQW---XR-AA---	Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	9	cop	_	_	1
+průzračnost	průzračnost_^(*3ý)	NNFS1-----A----	9	průzračnost	průzračnost	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	3	ccomp	_	_	1
+jeho	jeho_^(přivlast.)	PSXXXZS3-------	10	jeho	jeho	DET	PSXXXZS3-------	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	11	det	_	_	1
+systému	systém	NNIS2-----A----	11	systému	systém	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	9	nmod	_	SpaceAfter=No	1
+,	,	Z:-------------	12	,	,	PUNCT	Z:-------------	_	13	punct	_	_	1
+kvality	kvalita	NNFS2-----A----	13	kvality	kvalita	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	11	appos	_	_	1
+příbuznosti	příbuznost-2_^(podobný)_(*5ý-2)	NNFS2-----A----	14	příbuznosti	příbuznost	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	13	nmod	_	SpaceAfter=No	1
+.	.	Z:-------------	15	.	.	PUNCT	Z:-------------	_	1	punct	_	_	1
+	
+Musí	muset	VB-S---3P-AA---	1	Musí	muset	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	1
+to	ten	PDNS1----------	2	to	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	1	xcomp	_	_	1
+být	být	Vf--------A----	3	být	být	AUX	Vf--------A----	Polarity=Pos|VerbForm=Inf	2	cop	_	_	1
+možná	možná-1_^(snad)	Db-------------	4	možná	možný	ADV	Db-------------	_	1	advmod	_	_	1
+něco	něco	PZ--1----------	5	něco	něco	PRON	PZ--1----------	Case=Nom|PronType=Ind	1	nsubj	_	_	1
+jiného	jiný	AANS2----1A----	6	jiného	jiný	ADJ	AANS2----1A----	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	5	amod	_	SpaceAfter=No	1
+.	.	Z:-------------	7	.	.	PUNCT	Z:-------------	_	1	punct	_	SpacesAfter=\r	1
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
