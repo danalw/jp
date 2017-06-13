@@ -13,27 +13,24 @@ my $i=0;
 my $comb = "";
 my $result_ud = "";
 my $result_morp = "";
-
 @sourcenames = map {$_ } glob 'data/*.txt'; 
-#say join(" ", @sourcename2);
 
-#empty output file t1
+empty_output('t1'); #empty output file t1
+empty_output('udpipe_temp'); #empty output file 
+empty_output('morp_temp'); #empty output file 
 
-	empty_output();
 
-	for my $fc (@sourcenames)
-	{
-	say $fc, $i;
-	($result_ud, $result_morp) = use_apis($fc, $i);
-	clean_output_udpipe();
-	combination_temps($result_ud, $result_morp);
-	#$comb = qx ( paste morp_temp udpipe_temp >> t1 );
-	push @metadata, $fc;
-	$i++;
-	say $comb, "added.";
-	}
+for my $fc (@sourcenames)
+{
+ say "\nid: ", $i, ' file: ', $fc;
+ ($result_ud, $result_morp) = use_apis($fc, $i);
+ combination_temps($result_ud, $result_morp);
+ push @metadata, $fc;
+ $i++; #file id 
+}
 
-	say scalar @metadata; 
+clean_output_udpipe(); #only temp file, fixs blank lines
+say 'number of files: ', scalar @metadata; 
 metadata_add(\@metadata);
 
 
@@ -69,17 +66,18 @@ $tokenized = qx ( curl -F 'data=$content' -F 'output=vertical' -F model=czech ht
 
 $tokenized =~ s/^\x{feff}//;
 $tokenized =~ s/^\n//;
-#write_to_temp('toks',$tokenized,'toks out');
 
 
 	$mor_result = qx ( curl -F 'data=$tokenized' -F 'input=vertical'  -F 'output=vertical' -F model=czech http://lindat.mff.cuni.cz/services/morphodita/api/tag | PYTHONIOENCODING=utf-8 python -c "import sys,json; sys.stdout.write(json.load(sys.stdin)['result'])");
-$result_morp .= $mor_result;
+$result_morp = $mor_result;
 	
 
 	$ud_json =  qx( curl -F 'data=$tokenized' -F input=vertical -F model=czech -F tokenizer= -F tagger= -F parser= http://lindat.mff.cuni.cz/services/udpipe/api/process | PYTHONIOENCODING=utf-8 python -c "import sys,json; sys.stdout.write(json.load(sys.stdin)['result'])");
 
 $ud_json =~ s/\#.+\n//g; #remove comments
+
 $ud_json =~ s/\n/\t$id\n/g; #adds id of file, can't catch ^ or $ :( ...
+
 $result_ud = $ud_json;
 
 write_to_temp('udpipe_temp',$result_ud,'udpipe out');
@@ -92,11 +90,13 @@ return ($result_ud, $result_morp);
 
 
 #########################
-#
+#argv[0] / filename 
 #########################
 sub empty_output
 {
-open (my $session_file, '>', 't1');
+my $filename = $_[0];
+
+open (my $session_file, '>', $filename);
 truncate $session_file, 0;
 close $session_file;
 }
@@ -152,17 +152,21 @@ close $fh;
 sub combination_temps
 {
 
-open (my $tf, '>', 't1');
+open (my $tf, '>>', 't1');
 
 
 my @result_ud = split /^/, $_[0];
 my @result_morp = split /^/, $_[1];
-my $i = 25; 
+my $i = 0; 
 my $e = 0;
+my $ll = "";
+
 
 $e = $i;
 
-for my $i (25..100)
+#print join("_", @result_ud);
+
+for my $i (0..scalar @result_ud)
 {
 #say "i: ", $i,",e: ", $e;
  my @ud = split /\t/,$result_ud[$i];
@@ -170,24 +174,23 @@ for my $i (25..100)
  my @mp2 = split /\t/, $result_morp[$e+1];
  my @mp3 = split /\t/, $result_morp[$e-1];
 
-if ($result_ud[$i] =~ /^\n/)
+if($ud[0] eq '')
 {
-say "newline";
+ print $tf "\n"; #adds blank line to output file when ^$ sentence divider;
 }
 else
 {
-say "record";
  if ($ud[1] eq $mp[0])
-  {#say "shoda";
-   #say $ud[1], "\t", $mp[0];
+ {#say "match";
+  #say $ud[1], "\t", $mp[0];
 	$result_morp[$e] =~ s/\n/\t$result_ud[$i]/; 
 	print $tf $result_morp[$e]; 
  }
  else
-  {
+ {
   if ( $ud[1] eq $mp2[0])
    {
-   #shoda posun e+1;
+   #match shift e+1; lookforward
    #say $ud[1], "\t", $mp2[0]; 
 	$result_morp[$e+1] =~ s/\n/\t$result_ud[$i]/; 
 	print $tf $result_morp[$e+1]; 
@@ -195,28 +198,23 @@ say "record";
    }
   elsif ( $ud[1] eq $mp3[0])
    {
+   #match shift e-1; lookbehind
    #say $ud[1], "\t", $mp3[0];
-   #shoda posun e+1;
 	$result_morp[$e-1] =~ s/\n/\t$result_ud[$i]/; 
 	print  $tf $result_morp[$e-1]; 
    $e--; 
    }
   else
    {
-   say "problem with: c:", $ud[1], "\t 1:", $mp2[0], "\t2:", $mp3[0];
+   say "problem with align:", $ud[1], "\t 1:", $mp2[0], "\t2:", $mp3[0];
    };
-   
-  };
-}
-
+ };
+};
 $e++;
+};
 
-
-}
 
 close $tf;
-
-
 }
 
 #########################
@@ -230,10 +228,10 @@ my $filename = $_[0];
 my $result = $_[1];
 my $msg = $_[2];
 
-open(my $fh, '>', $filename) or die "Could not open file '$filename' $!";
+open(my $fh, '>>', $filename) or die "Could not open file '$filename' $!";
 say $fh $result;
 close $fh; 
-say $msg, ' ', $filename, ' - done';
+#say $msg, ' ', $filename, ' - tempfile done';
 
 }
 
