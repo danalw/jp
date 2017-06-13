@@ -1,0 +1,21 @@
+﻿Jacob  Klein: Die griechische Logistik und die Entstehung der Algebra I1
+(1934)
+Úmysl práce je ontologie řecké matematiky a tím příspěvek k pochopení řeckého myšlení vůbec. Autor ukazuje, jak se pojem @ἀριθμός# liší od našeho pojmu čísla a jak problematika tohoto pojmu (jednota mnohosti) souvisí se základními otázkami řecké filosofie zejména v její platónské podobě. Vyjasnění pojmu @ἀριθμός# po této stránce vede pak na druhé straně k řešení nejdůležitějších a nejtemnějších otázek platonismu, zejména otázky idejí – čísel. Klein se shoduje s O. Beckerem (Die diairetische Erzeugung der platonischen Idealzahlen)2 v tom, že @ἀριθμὸς εἰδητικός# je prostě „soubor idejí“, tj. „aritmetická jednota“, jejíž jednotky (@νομάδες#) jsou @εἴδη#. Prvně však se na základě tohoto poznání odvažuje řešení otázky methexis: aritmetický ráz idejí (@εἴδη# = @ἀριθμοί#) dovoluje pochopit, jak @εἶδος# je zároveň @χωρίς# a @ἕν#, ač se vztahuje na @πολλά#. Poukaz na toto řešení nachází Klein v dialogu Hippias maior 300 a –302 b, zvl. ve formuli @ἕν ἐκατερον, ἀμφότερα δὲ δύο# [srv. 301 d].
+	Kleinova práce je pokus o jasný výklad platónské nauky o ideálních číslech, výklad nikoli úplný, ale přece v hlavních věcech tak ujasňující, že se dá říci, že další badání se s ním musí vážně vyrovnat. Srovnáme-li nejasnosti, kterých je plna na př. Brunschvicgova kniha Les Étapes de philosophie mathématique [Paris 1912] o charakteru idejí–čísel, vidíme, jak jsou málo oprávněny výroky, jako že platónské dialogy neposkytují o této doktríně doslova žádných údajů (Kleinova interpretace dialogu Sofistés je v tomto ohledu úplně novým a svou důkladností i hloubkou zarážejícím dokladem o filosofickém bohatství tohoto dialogu). Teorie idejí–čísel právě není matematická teorie, nýbrž ontologická, filosofická interpretace možnosti něčeho takového jako @διάνοια#.
+	Kniha i jinak obsahuje žeň hluboké učenosti a zralé meditace Platónovy a Aristotelovy ontologie, těchto nejspekulativnějších a nejzralejších filosofických výtvorů vůbec.
+1 Recenze studie: J. Klein, Die griechische Logistik und die Entstehung der Algebra I, in: Quellen und Studien zur Geschichte der Mathematik, Astronomie und Physik, B: Studien  3, vyd. Otto Neugebauer, Julius Stenzel a Otto Töplitz, Berlin, Springer 1934, sešit 1, str. 18–105. (Pozn. vyd.)
+2 O. Becker, Die diairetische Erzeugung der platonischen Idealzahlen, in: Quellen und Studien zur Geschichte der Mathematik, Astronomie und Physik, B: Studien 1 (1929/1931), sešit 4, str. 483 nn.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
