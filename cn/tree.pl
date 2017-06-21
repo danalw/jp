@@ -56,13 +56,18 @@ $buffer .= $row;
 #joining: id/new, token from X-N[1], lemma from N[3], pos X[4], features X[6], next empty columns;   
 #out: temp file with original tokens, $i of sentence
 #################
+$i = 0;
 
-my @tokens = split ("\n", $sentences[0]); 
+foreach my $sentence_problem (@sentences)
+{
+#my @tokens = split ("\n", $sentences[0]); 
+
+my @tokens = split ("\n", $sentence_problem); 
 my @new_tokens = ();
 my $token_id = 1;
 my $new_id = 1;
 my $tokens_row = "";
-$i = 0;
+
 
 while ($token_id<=(scalar @tokens))
 {
@@ -81,7 +86,7 @@ while ($token_id<=(scalar @tokens))
 #  say $tokens[$token_id];
 #  say $tokens[$token_id+1];
   my $removed_part = $tokens_row."\n".$tokens[$token_id]."\n".$tokens[$token_id+1];
-  write_to_temp(($i+1), $removed_part, 'removed tokens saved to file: '.($i+1));
+  write_to_temp(('edited/'.($i+1).'_token_divided'), $removed_part, 'removed tokens saved to file: '.('edited/'.($i+1).'_token_divided'));
   $i++;
 # say 'new: ', $new_tokens[$new_id];
   $token_id = $token_id + 2;	
@@ -103,6 +108,7 @@ $token_id++;
 
 #say scalar @tokens;
 #say $new_id;
+
 say 'sentence:', $i,', tokens: ' , scalar @new_tokens;
 
 
@@ -120,10 +126,10 @@ my $conllu = join("\n", @new_tokens);
 my $new_tree = qx ( curl -F 'data=$conllu' -F model=czech http://lindat.mff.cuni.cz/services/parsito/api/parse | PYTHONIOENCODING=utf-8 python -c "import sys,json; sys.stdout.write(json.load(sys.stdin)['result'])");
 
 
-say "after:\n" , $new_tree;
-write_to_temp('parsito_edited_tokens',$new_tree ,'parsito edited output created.');
+#say "after:\n" , $new_tree;
+write_to_temp(('edited/'.$i.'_parsito_edited_tokens'), $new_tree ,('created file: '.('edited/'.$i.'_parsito_edited_tokens')));
 
-
+} #end foreach sentence
 
 
 
@@ -150,7 +156,7 @@ open(my $fh, '>', $filename)
 	or die "Could not open file $!";
 print $fh $result;
 close $fh; 
-say $msg, ' - tempfile done';
+say $msg, ' -  done';
 }
 
 

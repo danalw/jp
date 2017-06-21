@@ -1,0 +1,13 @@
+1	Tato	tento	DET	PDFS1----------	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	SpacesAfter=\n
+2	fáze	fáze	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	3	nsubj	_	SpacesAfter=\n
+3	využívá	využívat	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+4	výsledků	výsledek	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos	3	dobj	_	SpacesAfter=\n
+5	předešlé	předešlý	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	4	amod	_	SpacesAfter=\n
+6	,	,	PUNCT	Z:-------------	_	5	punct	_	SpacesAfter=\n
+7	aby	_^(aby-SCONJ, by-být-AUX)	AUX	Vc-------------	Mood=Cnd|Person=3|VerbForm=Fin	8	aux	_	_
+8	zbudovala	zbudovat	VERB	VpQW---XR-AA---	Aspect=Imp|Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	3	conj	_	SpacesAfter=\n
+9	vlastní	vlastní	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	11	amod	_	SpacesAfter=\n
+10	noetickou	noetický	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	11	amod	_	SpacesAfter=\n
+11	teorii	teorie	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	8	dobj	_	SpacesAfter=\n
+12	.	.	PUNCT	Z:-------------	_	3	punct	_	SpacesAfter=\n\n
+
