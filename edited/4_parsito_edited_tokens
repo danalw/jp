@@ -1,0 +1,21 @@
+1	Filozof	filozof	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	2	nsubj	_	SpacesAfter=\n
+2	ví	vědět	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+3	,	,	PUNCT	Z:-------------	_	14	punct	_	SpacesAfter=\n
+4	že	že	SCONJ	J,-------------	_	14	mark	_	SpacesAfter=\n
+5	celá	celý	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	7	amod	_	SpacesAfter=\n
+6	jeho	jeho	DET	PSXXXZS3-------	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	7	det	_	SpacesAfter=\n
+7	bytost	bytost	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	14	nmod	_	SpacesAfter=\n
+8	,	,	PUNCT	Z:-------------	_	11	punct	_	SpacesAfter=\n
+9	celé	celý	ADJ	AANS4----1A----	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	11	amod	_	SpacesAfter=\n
+10	jeho	jeho	DET	PSXXXZS3-------	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	11	det	_	SpacesAfter=\n
+11	snažení	snažení	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos	7	appos	_	SpacesAfter=\n
+12	jsou	být	AUX	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	14	aux	_	SpacesAfter=\n
+13	pouze	pouze	ADV	Db-------------	_	14	advmod:emph	_	SpacesAfter=\n
+14	záminkou	záminka	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing|Polarity=Pos	2	ccomp	_	SpacesAfter=\n
+15	,	,	PUNCT	Z:-------------	_	19	punct	_	SpacesAfter=\n
+16	aby	_^(aby-SCONJ, by-být-AUX)	AUX	Vc-------------	Mood=Cnd|Person=3|VerbForm=Fin	19	aux	_	_
+17	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	19	expl	_	SpacesAfter=\n
+18	pravda	pravda	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	19	dobj	_	SpacesAfter=\n
+19	realizovala	realizovat	VERB	VpQW---XR-AA---	Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	14	acl	_	SpacesAfter=\n
+20	.	.	PUNCT	Z:-------------	_	14	punct	_	SpacesAfter=\n\n
+

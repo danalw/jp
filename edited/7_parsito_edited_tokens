@@ -1,0 +1,26 @@
+1	Byl	být	AUX	VpYS---XR-AA---	Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	3	aux	_	SpacesAfter=\n
+2	bych	být	AUX	Vc-S---1-------	Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin	3	aux	_	SpacesAfter=\n
+3	spokojen	spokojený	ADJ	ACYS------A----	Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short	0	root	_	SpacesAfter=\n
+4	,	,	PUNCT	Z:-------------	_	3	punct	_	SpacesAfter=\n
+5	kdybych	_^(když-SCONJ, bych-být-AUX)	AUX	Vc-S---1-------	Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin	6	aux	_	_
+6	mohl	moci	VERB	VpYS---XR-AA---	Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	3	conj	_	SpacesAfter=\n
+7	několika	několik	DET	Ca--7----------	Case=Ins|NumType=Card|PronType=Ind	8	det:nummod	_	SpacesAfter=\n
+8	slovy	slovo	NOUN	NNNP7-----A----	Case=Ins|Gender=Neut|Number=Plur|Polarity=Pos	9	dobj	_	SpacesAfter=\n
+9	přispět	přispět	VERB	Vf--------A----	Polarity=Pos|VerbForm=Inf	6	xcomp	_	SpacesAfter=\n
+10	takto	takto	ADV	Db-------------	_	9	advmod	_	SpacesAfter=\n
+11	»	»	PUNCT	Z:-------------	_	10	punct	_	SpacesAfter=\n
+12	k	k	ADP	RR--3----------	AdpType=Prep|Case=Dat	16	case	_	SpacesAfter=\n
+13	naší	můj	DET	PSFS3-P1-------	Case=Dat|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	16	det	_	SpacesAfter=\n
+14	chudé	chudý	ADJ	AAMP4----1A----	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	16	amod	_	SpacesAfter=\n
+15	teologické	teologický	ADJ	AAFS3----1A----	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	16	amod	_	SpacesAfter=\n
+16	diskusi	diskuse	NOUN	NNFS3-----A----	Case=Dat|Gender=Fem|Number=Sing|Polarity=Pos	9	nmod	_	SpacesAfter=\n
+17	«	«	PUNCT	Z:-------------	_	20	punct	_	SpacesAfter=\n
+18	,	,	PUNCT	Z:-------------	_	20	punct	_	SpacesAfter=\n
+19	jež	jenž	PRON	PJNS1----------	Case=Nom|Gender=Neut|Number=Sing|PrepCase=Npr|PronType=Rel	20	nsubj	_	SpacesAfter=\n
+20	potřebuje	potřebovat	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	16	acl	_	SpacesAfter=\n
+21	skutečně	skutečně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	22	advmod	_	SpacesAfter=\n
+22	jasnosti	jasnost	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	20	dobj	_	SpacesAfter=\n
+23	a	a	CCONJ	J^-------------	_	22	nmod	_	SpacesAfter=\n
+24	poctivosti	poctivost	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	23	root	_	SpacesAfter=\n
+25	.	.	PUNCT	Z:-------------	_	24	punct	_	SpacesAfter=\n\n
+

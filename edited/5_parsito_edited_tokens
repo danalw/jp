@@ -1,0 +1,30 @@
+1	Kdybych	_^(Když-SCONJ, bych-být-AUX)	AUX	Vc-S---1-------	Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin	11	aux	_	_
+2	si	se	PRON	P7-X3----------	Case=Dat|PronType=Prs|Reflex=Yes|Variant=Short	11	expl	_	SpacesAfter=\n
+3	nebyl	být	AUX	VpYS---XR-NA---	Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part|Voice=Act	11	aux	_	SpacesAfter=\n
+4	vědom	vědomý	ADJ	ACYS------A----	Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short	5	amod	_	SpacesAfter=\n
+5	cirkulu	cirkul	NOUN	NNIS3-----A----	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing|Polarity=Pos	11	nmod	_	SpacesAfter=\n
+6	,	,	PUNCT	Z:-------------	_	9	punct	_	SpacesAfter=\n
+7	jehož	jenž	PRON	PJZS2----------	Case=Gen|Gender=Masc,Neut|Number=Sing|PrepCase=Npr|PronType=Rel	9	dobj	_	SpacesAfter=\n
+8	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	9	expl	_	SpacesAfter=\n
+9	dopouštím	dopouštět	VERB	VB-S---1P-AA---	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl	_	SpacesAfter=\n
+10	,	,	PUNCT	Z:-------------	_	9	punct	_	SpacesAfter=\n
+11	řekl	říci	VERB	VpYS---XR-AA---	Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	SpacesAfter=\n
+12	bych	být	AUX	Vc-S---1-------	Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin	11	aux	_	SpacesAfter=\n
+13	,	,	PUNCT	Z:-------------	_	19	punct	_	SpacesAfter=\n
+14	že	že	SCONJ	J,-------------	_	19	mark	_	SpacesAfter=\n
+15	filozofie	filozofie	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	19	nmod	_	SpacesAfter=\n
+16	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	19	aux	_	SpacesAfter=\n
+17	proto	proto	CCONJ	J^-------------	_	19	advmod	_	SpacesAfter=\n
+18	tak	tak	ADV	Db-------------	PronType=Dem	19	advmod	_	SpacesAfter=\n
+19	pevná	pevný	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	11	ccomp	_	SpacesAfter=\n
+20	a	a	CCONJ	J^-------------	_	19	cc	_	SpacesAfter=\n
+21	absolutní	absolutní	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	20	root	_	SpacesAfter=\n
+22	,	,	PUNCT	Z:-------------	_	24	punct	_	SpacesAfter=\n
+23	že	že	SCONJ	J,-------------	_	24	mark	_	SpacesAfter=\n
+24	spočívá	spočívat	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	21	csubj	_	SpacesAfter=\n
+25	na	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	26	case	_	SpacesAfter=\n
+26	věčném	věčný	ADJ	AAIS6----1A----	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	24	dobj	_	SpacesAfter=\n
+27	a	a	CCONJ	J^-------------	_	26	cc	_	SpacesAfter=\n
+28	neměném	měný	ADJ	AAIS6----1N----	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Neg	26	conj	_	SpacesAfter=\n
+29	.	.	PUNCT	Z:-------------	_	21	punct	_	SpacesAfter=\n\n
+
